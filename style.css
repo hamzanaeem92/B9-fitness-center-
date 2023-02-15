@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(./carousel-1.jpg);
+    color: white
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header div h1{
+    font-family: 'Babylonica', cursive;
+    font-weight: bolder;
+    font-size: 95px;
+    PADDING: 0px 5px 0px 0px;
+}
+.nav  {
+   display: flex;
+    padding: 15px 25px 15px 150px;
+}
+nav ul li{
+   
+    list-style: none;
+    padding: 80 40 0 40px;
+    margin: 30px;   
+    font-weight:bolder;
+}
+nav ul li:hover{
+    color: red;
+}
+div h2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: #fd0303;
+    font-size: 40px;
+
+}
+div h1{ 
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 80px;
+
+}
+button{
+    display: flex;
+    justify-items: center;
+    padding: 15px;
+    margin-left: 600px;
+    font-size: 30px; 
+    background-color: transparent;
+    box-shadow: #fd0202;
+
+}
+button:hover{
+    background-color: #f7f6f3
+}
